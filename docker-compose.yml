@@ -3,9 +3,9 @@
 
 version: '3'
 services:
-  dockovpn:
+  vpn:
     build: ../Dockerfile
-    image: alekslitvinenk/openvpn
+    image: vpn
     cap_add:
         - NET_ADMIN
     ports:
